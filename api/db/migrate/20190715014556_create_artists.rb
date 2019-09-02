@@ -5,7 +5,7 @@ class CreateArtists < ActiveRecord::Migration[5.2]
       t.string :image
       t.string :Greatest_hits
       t.integer :age
-      t.integer :stars
+      t.string :video
       t.belongs_to :genre, foreign_key: true
 
       t.timestamps

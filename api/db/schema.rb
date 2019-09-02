@@ -20,7 +20,7 @@ ActiveRecord::Schema.define(version: 2019_07_15_014556) do
     t.string "image"
     t.string "Greatest_hits"
     t.integer "age"
-    t.integer "stars"
+    t.string "video"
     t.bigint "genre_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
